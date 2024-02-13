@@ -1,1 +1,4 @@
 # CryptoClustering
+
+This repository contains a project using Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.  The repository contains a Jupyter Notebook file containing all of the code for the creation of several plots comparing the data, a README file, and a folder titled Resources which contains the CSV file with the cryptocurrerncy data.  A DataFrame was created from the CSV file data and used to creat the first line plot.  The data was normalized using the StandardScaler module from sklearn and a DataFrame was created from the scaled data, the KMeans module from sklearn was used to find the optimal number of clusters and the resulting data was used to create a DataFrame, from which a second line plot was created.  Observing this plot we can conclude that 4 is the optimal number of clusters as any larger number of clusters creates very minimal change in the inertia.
+
